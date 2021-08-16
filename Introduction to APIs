@@ -1,0 +1,9 @@
+cache-control: Holds instructions for the browser on how to handle the caching. Such as whether it is public or private, how long to hold the cache, and whether a cache can be reused or not.
+content-type: Tells you the original media type. In this case it is text in the form of HTML.
+date: Contains the date of when the page was last updated.
+etag: Tells you a unique tag for that page. If any changes are made, a new etag is created.
+strict-transport-security: Tells you how long the page should be accessed with https. In this case it is 31536000 seconds, or exactly 365 days.
+content-length: Tells you the length of the message body in bytes.
+age: Tells you how long the page has been in proxy cache. In this case it has been 257940 seconds, or just under 3 days. It is usually close to 0 so this page has not been pulled from the server since the date header said.
+server: Tells you where the page was hosted. In this case it is hosted on Netlify servers like suncoast.io
+x-nf-request-id	: This is a log file. It tells the programmer the exact request and access information such as URL that was accessed, IP addresses, and time. This is a header provided by Netlify.
